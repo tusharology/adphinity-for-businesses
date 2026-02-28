@@ -1,2 +1,0 @@
-import{Bo as s}from"chunk-SF5446RK.mjs";import{j as i}from"chunk-CMAEAGWD.mjs";var m=f(s);function c(e){let o=[],n=!1;for(let t of e)t.explicitInter||(n||o.push(...m),n=!0),o.push(...t.fonts);return o}function f(e){let o=[];for(let n of e)if(n.subsets)for(let t of n.subsets){let r={url:t.file,uiFamilyName:n.uiFamilyName,cssFamilyName:n.cssFamilyName,style:n.style,weight:i(n.weight)?void 0:String(n.weight),source:"framer",unicodeRange:t.unicodeRange};r.variationAxes=n.variationAxes,o.push(r)}return o}export{c as a};
-//# sourceMappingURL=chunk-RN3IIBJX.mjs.map

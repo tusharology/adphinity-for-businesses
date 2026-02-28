@@ -1,2 +1,0 @@
-import{j as n}from"chunk-YMMCZXGY.mjs";import{da as s,f as o}from"chunk-EEV263O3.mjs";var p=s("pollProject");async function P(a,i){let{intervalMillis:c,attempts:r,stopCondition:l}=i;try{for(let t=0;t<r;t++){let e=await n.get(`/web/projects/${a}`,{includeUsageDataV2:"true"});if(l(e))return{status:0,project:e};t<r-1&&await o(c)}return{status:1,message:`Polling exceeded ${r} attempts`}}catch(t){return p.reportError(t),{status:2,error:t}}}export{P as a};
-//# sourceMappingURL=chunk-V7FUC4PV.mjs.map
